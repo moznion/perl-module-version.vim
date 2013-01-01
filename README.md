@@ -19,7 +19,7 @@ This plugin provides a function to check up version of installed perl module.
 #How to install
 If you are using Vundle, please write down some codes into '.vimrc', like so:
 
-    Bundle 'moznion/perl-modle-version.vim'
+    Bundle 'moznion/perl-module-version.vim'
 
 Or put the 'moduleVersion.vim' onto plugin directory of vim.
 
