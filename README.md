@@ -2,7 +2,7 @@
 perl-module-version.vim
 
 #Description
-This is a vim script.  
+This is a vim plugin.  
 This plugin provides a function to check up version of installed perl module.
 
 #USAGE
