@@ -27,7 +27,7 @@ Or put the 'moduleVersion.vim' onto plugin directory of vim.
 moznion (Taiki kawakami) \<moznion@gmail.com\>
 
 #Last Modified
-7 Jan 2003.
+7 Jan 2013.
 
 #License
 MIT License
