@@ -1,3 +1,13 @@
+" Vim plugin to check up version of installed perl module.
+" File: moduleVersion.vim
+" Author: moznion (Taiki Kawakami) <moznion@gmail.com>
+" Last Modified: 7 Jan 2013.
+" License: MIT License
+
+
+let s:save_cpo = &cpo
+set cpo&vim
+
 command! -nargs=* ModuleVersion call ModuleVersion(<f-args>)
 
 func! ModuleVersion(moduleName)
@@ -36,3 +46,6 @@ func! s:NotExist(message)
   echo a:message
   echohl None
 endf
+
+let &cpo = s:save_cpo
+unlet s:save_cpo
